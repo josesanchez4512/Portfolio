@@ -1,25 +1,38 @@
 body {
-    background-color: #e6e6e6;
+    background-color:rgb(213, 255, 205);
     height: 500px;
-    
     margin: 0px;
     padding: 0px;}
+    
 
     .box1{
         height: 400px;
         display: flex;
-        background-color: skyblue;
+        background-color:rgb(163, 77, 77);
         margin-bottom: 20px;
-        font-family: Arial;  
-        align-items: center;
+        font-family: 'Times New Roman', Times, serif;  
+        align-items: center; 
         font-size: 4em;
         justify-content: center;
         text-align: center;
-        color: white;
+        color:pink;
+        
 
     }
     
-
+    .grid-wrapper {
+        display: grid;
+        grid-gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+      }
+      .grid-top {
+        grid-column: 1;
+        grid-row: 1;
+      }
+      .grid-bottom { 
+        grid-column: 1;
+        grid-row: 2;
+      }
 
     
     
@@ -35,7 +48,7 @@ body {
       }
       
       .flex-container > div {
-        background-color: #ffffff00;
+        background-color:red ;
         width: 200px;
         margin: auto;
         text-align: center;
@@ -53,13 +66,16 @@ body {
         font-size: 16px;
     }
     .flexA {
-        border-top: 20px solid skyblue;
+        border-top: 20px solid blue;
+        border-radius: 300px; 
     }
     .flexB {
         border-top: 20px solid orange;
+        border-radius: 300px;
     }
     .flexC {
         border-top: 20px solid lightseagreen;
+        border-radius: 300px;
     }
 
     @media only screen and (min-width: 576px){
