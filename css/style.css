@@ -1,12 +1,13 @@
 body {
     background-color:rgb(213, 255, 205);
-    height: 500px;
+    height: 300px;
     margin: 0px;
     padding: 0px;}
-    
+
+
 
     .box1{
-        height: 400px;
+        height: 300px;
         display: flex;
         background-color:rgb(163, 77, 77);
         margin-bottom: 20px;
@@ -16,6 +17,11 @@ body {
         justify-content: center;
         text-align: center;
         color:pink;
+        background-image: url(background.png);
+        background-blend-mode:hue;
+        border-bottom-right-radius: 50px; 
+        border-top-left-radius: 50px;
+        background-image: -moz-radial-gradient();
         
 
     }
